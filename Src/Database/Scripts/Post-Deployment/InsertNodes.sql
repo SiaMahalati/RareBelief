@@ -1,0 +1,27 @@
+﻿SET IDENTITY_INSERT Nodes ON
+
+IF NOT EXISTS(SELECT 1 FROM Nodes WHERE Id = 1)
+BEGIN
+INSERT INTO Nodes (Id, Name,ParentNodeId,DateCreated)
+VALUES (1, 'World Organization',NULL,GETDATE())
+END
+
+IF NOT EXISTS(SELECT 1 FROM Nodes WHERE  Id = 2)
+BEGIN
+INSERT INTO Nodes (Id, Name,ParentNodeId,DateCreated)
+VALUES (2, 'Test Node 1',1,GETDATE())
+END
+
+IF NOT EXISTS(SELECT 1 FROM Nodes WHERE  Id = 3)
+BEGIN
+INSERT INTO Nodes (Id, Name,ParentNodeId,DateCreated)
+VALUES (3, 'Test Node 2',1,GETDATE())
+END
+
+IF NOT EXISTS(SELECT 1 FROM Nodes WHERE  Id = 4)
+BEGIN
+INSERT INTO Nodes (Id, Name,ParentNodeId,DateCreated)
+VALUES (4, 'Test Node 3',1,GETDATE())
+END
+
+SET IDENTITY_INSERT Nodes OFF

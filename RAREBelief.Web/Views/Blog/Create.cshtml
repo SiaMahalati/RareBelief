@@ -1,0 +1,13 @@
+﻿@model RAREBelief.Web.Models.BlogViewModel
+@{
+    ViewBag.Title = "Create Blog";
+}
+
+<h2>Create Blog</h2>
+
+@using (Html.BeginForm("Create", "Blog", FormMethod.Post))
+{
+    @Html.Label("Title")
+    @Html.TextBoxFor(m => m.Title)
+    <input type="submit" value="Save new blog"/>
+}

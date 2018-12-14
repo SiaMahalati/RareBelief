@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAREBelief.Web", "RAREBelief.Web\RAREBelief.Web.csproj", "{0FECB6E4-258C-4B11-9BA0-17366AD3DDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAREBelief.Web.Tests", "RAREBelief.Web.Tests\RAREBelief.Web.Tests.csproj", "{F5C24FA9-8119-45E3-AB8F-C1AA50150023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAREBelief.Domain", "RAREBelief.Domain\RAREBelief.Domain.csproj", "{F5250626-251C-480F-96A8-7FF07C8E2F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RareBelief.Infrastructure", "RareBelief.Infrastructure\RareBelief.Infrastructure.csproj", "{16EBBB22-A417-43EB-9149-5E1F0C669FEA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{A7B114B9-B6A3-43A8-A300-E9202DA69865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FECB6E4-258C-4B11-9BA0-17366AD3DDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FECB6E4-258C-4B11-9BA0-17366AD3DDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FECB6E4-258C-4B11-9BA0-17366AD3DDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FECB6E4-258C-4B11-9BA0-17366AD3DDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C24FA9-8119-45E3-AB8F-C1AA50150023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C24FA9-8119-45E3-AB8F-C1AA50150023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C24FA9-8119-45E3-AB8F-C1AA50150023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C24FA9-8119-45E3-AB8F-C1AA50150023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5250626-251C-480F-96A8-7FF07C8E2F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5250626-251C-480F-96A8-7FF07C8E2F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5250626-251C-480F-96A8-7FF07C8E2F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5250626-251C-480F-96A8-7FF07C8E2F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EBBB22-A417-43EB-9149-5E1F0C669FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EBBB22-A417-43EB-9149-5E1F0C669FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EBBB22-A417-43EB-9149-5E1F0C669FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EBBB22-A417-43EB-9149-5E1F0C669FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B114B9-B6A3-43A8-A300-E9202DA69865}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mahalati.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Database\\Database.sqlproj
+		SccProjectName1 = Database
+		SccLocalPath1 = Database
+		SccProjectUniqueName2 = RAREBelief.Domain\\RAREBelief.Domain.csproj
+		SccProjectName2 = RAREBelief.Domain
+		SccLocalPath2 = RAREBelief.Domain
+		SccProjectUniqueName3 = RareBelief.Infrastructure\\RareBelief.Infrastructure.csproj
+		SccProjectName3 = RareBelief.Infrastructure
+		SccLocalPath3 = RareBelief.Infrastructure
+		SccProjectUniqueName4 = RAREBelief.Web.Tests\\RAREBelief.Web.Tests.csproj
+		SccProjectName4 = RAREBelief.Web.Tests
+		SccLocalPath4 = RAREBelief.Web.Tests
+		SccProjectUniqueName5 = RAREBelief.Web\\RAREBelief.Web.csproj
+		SccProjectName5 = RAREBelief.Web
+		SccLocalPath5 = RAREBelief.Web
+	EndGlobalSection
+EndGlobal
