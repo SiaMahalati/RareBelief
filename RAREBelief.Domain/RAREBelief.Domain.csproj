@@ -63,19 +63,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\RareBeliefContext.cs" />
+    <Compile Include="Model\BaseEntity.cs" />
+    <Compile Include="Model\BaseEntityWithoutId.cs" />
     <Compile Include="Model\Blog.cs" />
+    <Compile Include="Model\IBaseEntity.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\City.cs" />
     <Compile Include="Model\Node.cs" />
     <Compile Include="Model\State.cs" />
     <Compile Include="Model\Country.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RareBelief.Infrastructure\RareBelief.Infrastructure.csproj">
-      <Project>{16EBBB22-A417-43EB-9149-5E1F0C669FEA}</Project>
-      <Name>RareBelief.Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

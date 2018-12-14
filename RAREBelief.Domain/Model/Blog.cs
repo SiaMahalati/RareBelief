@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using RareBelief.Infrastructure.Model;
+
 
 namespace RAREBelief.Domain.Model
 {
