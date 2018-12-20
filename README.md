@@ -1,2 +1,2 @@
 # RareBelief
-A global political organization
+Self Improvement
